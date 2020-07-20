@@ -49,3 +49,8 @@ oc expose svc/backend
 #
 # all done -- rollout the deploymentConfig as triggers were removed...will not automatically rollout
 # oc rollout latest dc/backend
+#
+#
+# to load up the db
+# oc rsh tododb-2-dr7wc /opt/rh/rh-mysql57/root/usr/bin/mysql -utodoapp -pmypass todo < todo.sql
+#
