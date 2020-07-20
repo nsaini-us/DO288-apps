@@ -407,8 +407,8 @@ parameters:
   value: master
 - displayName: Npm modules repository URL
   name: NPM_PROXY
-  required: true
-  value: http://nexus-common.apps.ocp-na2.prod.nextcle.com/repository/nodejs
+  required: false
+  value: 
 - displayName: Secret for webhooks
   name: SECRET
   required: true
